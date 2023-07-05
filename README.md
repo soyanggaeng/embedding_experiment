@@ -1,6 +1,9 @@
 # embedding_experiment
 
 ``` linux
+python -m venv .env
+source .env/bin/activate
+
 pip install torch torchvision
 pip install transformers
 pip install datasets
