@@ -8,6 +8,7 @@ pip install scipy scikit-learn
 pip install torch torchvision
 pip install transformers
 pip install datasets
+pip install gensim
 ```
 ### 참고 
 - https://huggingface.co/docs/transformers/model_doc/bert#transformers.BertForNextSentencePrediction    
