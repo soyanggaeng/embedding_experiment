@@ -3,6 +3,7 @@
 ``` linux
 python -m venv .env
 source .env/bin/activate
+pip install scipy scikit-learn
 
 pip install torch torchvision
 pip install transformers
