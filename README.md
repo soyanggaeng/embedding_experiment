@@ -25,6 +25,13 @@ conda install gensim
 conda install wget unzip build-essential
 ```
 
+### conda env v2.
+``` linux
+conda create -n newenv python=3.10
+conda activate newenv
+pip install transformers datasets torch
+```
+
 
 ## dataset
 https://huggingface.co/datasets/lucadiliello/english_wikipedia
