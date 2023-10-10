@@ -16,6 +16,12 @@ pip install gensim
 ``` linux
 conda create --name myenv
 
+conda install scipy scikit-learn
+conda install torch torchvision
+conda install transformers
+conda install datasets
+conda install gensim
+conda install wget unzip build-essential
 ```
 
 
