@@ -15,6 +15,7 @@ pip install gensim
 ## conda env
 ``` linux
 conda create --name myenv
+conda activate myenv
 
 conda install scipy scikit-learn
 conda install torch torchvision
