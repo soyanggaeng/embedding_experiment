@@ -7,7 +7,7 @@ def load_text(file_path):
         text = file.read().split('\n')
     return text
 
-dataset = load_dataset("lucadiliello/english_wikipedia")
+dataset = load_dataset("file name")
 
 # Define the tokenizer
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
