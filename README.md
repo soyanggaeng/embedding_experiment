@@ -3,6 +3,7 @@
 ``` linux
 python -m venv .env
 source .env/bin/activate
+conda deactivate
 
 pip install scipy scikit-learn
 pip install torch torchvision
