@@ -12,6 +12,13 @@ pip install datasets
 pip install gensim
 ```
 
+## conda env
+``` linux
+conda create --name myenv
+
+```
+
+
 ## dataset
 https://huggingface.co/datasets/lucadiliello/english_wikipedia
 ``` python
