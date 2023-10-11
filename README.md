@@ -12,24 +12,17 @@ pip install datasets
 pip install gensim
 ```
 
-## conda env
-``` linux
-conda create --name myenv
-conda activate myenv
-
-conda install scipy scikit-learn
-conda install torch torchvision
-conda install transformers
-conda install datasets
-conda install gensim
-conda install wget unzip build-essential
-```
-
 ### conda env v2.
 ``` linux
 conda create -n newenv python=3.10
 conda activate newenv
-pip install transformers datasets torch
+pip install transformers
+pip install datasets
+pip install torch
+pip install scipy
+pip install scikit-learn
+pip install gensim
+pip install transformers[torch]
 ```
 
 
